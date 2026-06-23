@@ -1,13 +1,14 @@
 /**
 *   In the name of Allah, the Most Gracious, the Most Merciful.
 *   Author : Ashraful Islam
-*   Time & Date : 01:22:10 16/02/2026
+*   Time & Date : 03:53:39 16/05/2026
 **/
 #include <bits/stdc++.h>
 using namespace std;
 #define MESSI ios::sync_with_stdio(false); cin.tie(0);
 #define ll long long
 #define pb push_back
+#define int long long
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 #define lcm(a, b) ((a) * (b)) / __gcd((a), (b))
@@ -17,22 +18,40 @@ using namespace std;
 #define no cout << "NO\n"
 void rhafsolve()
 {
-    ll n;   cin>>n;
-    ll ans=0;
-    while(n>0)
+    int n;  cin>>n;
+    vector<int> a(n),b(n),c(n);
+    for(auto&i:a) cin>>i;
+    for(auto&i:b) cin>>i;
+    for(auto&i:c) cin>>i;
+    
+    int ans=0;
+    bool Aflag=false,Bflag=false,cflag=false;
+    for(int i=0;i<n;i++)
     {
-        int val=n%10;
-        ans=ans*10+val;
-        n/=10;
+        if(a[i]>=(b[i] && c[i]) && !Aflag)
+        {
+            ans+=a[i];
+            Aflag=true;
+        }
+        else if(b[i]>=(a[i] && c[i]) && !Bflag)
+        {
+            ans+=b[i];
+            Bflag=true;
+        }
+        else if(c[i]>=(a[i] && b[i]) && !cflag)
+        {
+            ans+=c[i];
+            cflag=true;
+        }
+
     }
     cout<<ans<<nl;
-    
 }
 //observation
 /**
  
  **/
-int main() {
+signed main() {
     MESSI;
 
     int t = 1;
@@ -44,5 +63,3 @@ int main() {
 
     return 0;
 }
-
-

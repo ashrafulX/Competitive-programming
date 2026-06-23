@@ -1,13 +1,14 @@
 /**
 *   In the name of Allah, the Most Gracious, the Most Merciful.
 *   Author : Ashraful Islam
-*   Time & Date : 01:22:10 16/02/2026
+*   Time & Date : 19:25:01 07/05/2026
 **/
 #include <bits/stdc++.h>
 using namespace std;
 #define MESSI ios::sync_with_stdio(false); cin.tie(0);
 #define ll long long
 #define pb push_back
+#define int long long
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 #define lcm(a, b) ((a) * (b)) / __gcd((a), (b))
@@ -15,25 +16,53 @@ using namespace std;
 #define nl '\n'
 #define yes cout << "YES\n"
 #define no cout << "NO\n"
+const int maxN = 1e6 + 10;
+vector<int> isprime;
+vector<bool> prime(maxN, true);
+
+
+void sieve()
+{
+    prime[0] = prime[1] = false;
+
+    for(int i=2;i<maxN;i++)
+    {
+        if(prime[i])
+        {
+            isprime.pb(i);
+
+            for(int j=i+i;j<maxN;j+=i)
+            {
+                prime[j] = false;
+            }
+        }
+    }
+}
+
 void rhafsolve()
 {
-    ll n;   cin>>n;
-    ll ans=0;
-    while(n>0)
+    int n;
+    cin >> n;
+
+    vector<int> ans;
+
+    ans.pb(isprime[0]);
+
+    for(int i=1;i<n;i++)
     {
-        int val=n%10;
-        ans=ans*10+val;
-        n/=10;
+        ans.pb(isprime[i-1] * isprime[i]);
     }
-    cout<<ans<<nl;
-    
+
+    for(auto val : ans) cout << val << " ";
+    cout << nl;
 }
 //observation
 /**
  
  **/
-int main() {
+signed main() {
     MESSI;
+    sieve();
 
     int t = 1;
     cin >> t;
@@ -44,5 +73,3 @@ int main() {
 
     return 0;
 }
-
-

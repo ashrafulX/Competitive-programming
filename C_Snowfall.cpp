@@ -1,13 +1,14 @@
 /**
 *   In the name of Allah, the Most Gracious, the Most Merciful.
 *   Author : Ashraful Islam
-*   Time & Date : 01:22:10 16/02/2026
+*   Time & Date : 00:11:51 01/05/2026
 **/
 #include <bits/stdc++.h>
 using namespace std;
 #define MESSI ios::sync_with_stdio(false); cin.tie(0);
 #define ll long long
 #define pb push_back
+#define int long long
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 #define lcm(a, b) ((a) * (b)) / __gcd((a), (b))
@@ -17,22 +18,28 @@ using namespace std;
 #define no cout << "NO\n"
 void rhafsolve()
 {
-    ll n;   cin>>n;
-    ll ans=0;
-    while(n>0)
+    int n;  cin>>n;
+    vector<int>v(n);
+    for(auto&i:v)   cin>>i;
+    vector<int> a,b,c,d;
+    for(auto val : v)
     {
-        int val=n%10;
-        ans=ans*10+val;
-        n/=10;
+        if(val%6==0) a.pb(val);
+        else if(val%3==0) b.pb(val);
+        else if(val%2==0) c.pb(val);
+        else if(val%1==0) d.pb(val);
     }
-    cout<<ans<<nl;
-    
+    for(auto val : a) cout<<val<<" ";
+    for(auto val : c) cout<<val<<" ";
+    for(auto val : d) cout<<val<<" ";
+    for(auto val : b) cout<<val<<" ";
+    cout<<nl;
 }
 //observation
 /**
  
  **/
-int main() {
+signed main() {
     MESSI;
 
     int t = 1;
@@ -44,5 +51,3 @@ int main() {
 
     return 0;
 }
-
-

@@ -1,13 +1,14 @@
 /**
 *   In the name of Allah, the Most Gracious, the Most Merciful.
 *   Author : Ashraful Islam
-*   Time & Date : 01:22:10 16/02/2026
+*   Time & Date : 00:57:36 29/04/2026
 **/
 #include <bits/stdc++.h>
 using namespace std;
 #define MESSI ios::sync_with_stdio(false); cin.tie(0);
 #define ll long long
 #define pb push_back
+#define int long long
 #define all(x) (x).begin(), (x).end()
 #define rall(x) (x).rbegin(), (x).rend()
 #define lcm(a, b) ((a) * (b)) / __gcd((a), (b))
@@ -15,24 +16,26 @@ using namespace std;
 #define nl '\n'
 #define yes cout << "YES\n"
 #define no cout << "NO\n"
+int mod=676767677;
+
 void rhafsolve()
 {
-    ll n;   cin>>n;
-    ll ans=0;
-    while(n>0)
+    int n;  cin>>n;
+    vector<int> v(n);
+    for(auto&i:v) cin>>i;
+    int ans=0;
+    for(int i=0;i<n;i++)
     {
-        int val=n%10;
-        ans=ans*10+val;
-        n/=10;
+        if(v[i] != 1) ans+=v[i];
     }
+    if(v.back()==1) ans+=1;
     cout<<ans<<nl;
-    
 }
 //observation
 /**
  
  **/
-int main() {
+signed main() {
     MESSI;
 
     int t = 1;
@@ -44,5 +47,3 @@ int main() {
 
     return 0;
 }
-
-
