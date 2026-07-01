@@ -17,3 +17,7 @@ test
 t
 target)
 tempCodeRunnerFile.cpp
+
+# Windows
+Thumbs.db
+Desktop.ini
