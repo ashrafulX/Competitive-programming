@@ -10,12 +10,7 @@ A collection of my accepted solutions to competitive programming problems from v
 
 <!-- AUTO_COUNT -->
 
-<<<<<<< HEAD
-- 📝 Problems Solved: **831** <!-- AUTO_COUNT -->
-- 💻 Language: **C++**
-=======
 *The problem count above updates automatically on every push.*
->>>>>>> ef3859b (update)
 
 </div>
 
