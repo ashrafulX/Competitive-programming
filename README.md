@@ -4,7 +4,7 @@
 
 A collection of my accepted solutions to competitive programming problems from various online judges.
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-0-brightgreen?style=for-the-badge&logo=codeforces&logoColor=white)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-831-brightgreen?style=for-the-badge&logo=codeforces&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Last Commit](https://img.shields.io/github/last-commit/ashrafulx/Competitive-Programming?style=for-the-badge)
 
