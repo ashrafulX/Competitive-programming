@@ -4,7 +4,7 @@
 *.obj
 
 .cph/
-.vscoe/
+.vscode/
 test.cpp 
 test.java
 input.txt

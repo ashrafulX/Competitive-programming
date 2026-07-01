@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - '**.cpp'
+      - 'Competitive Programming/**.cpp'
   workflow_dispatch:
 
 permissions:
@@ -19,7 +19,7 @@ jobs:
       - name: Count solved problems
         id: count
         run: |
-          COUNT=$(find . -type f -name "*.cpp" -not -path "./.git/*" | wc -l)
+          COUNT=$(find "Competitive Programming" -type f -name "*.cpp" | wc -l)
           echo "count=$COUNT" >> "$GITHUB_OUTPUT"
 
       - name: Update badge in README
