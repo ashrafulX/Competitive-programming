@@ -6,7 +6,7 @@ A collection of my accepted solutions to competitive programming problems from v
 
 ## 📈 Statistics
 
-- 📝 Problems Solved: **0** <!-- AUTO_COUNT -->
+- 📝 Problems Solved: **831** <!-- AUTO_COUNT -->
 - 💻 Language: **C++**
 
 > The problem count is updated automatically on every push.
