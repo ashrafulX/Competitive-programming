@@ -1,1 +1,0 @@
-{"name":"Local: stringInsertation","url":"d:\\Phitron c\\week 3\\stringInsertation.c","tests":[{"id":1729624242754,"input":"abdefg\n2\nc","output":"abcdefg"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron c\\week 3\\stringInsertation.c","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: TEAMFOR","url":"d:\\Competative\\Codechef\\TEAMFOR.cpp","tests":[{"id":1755728268301,"input":"4\n3\n101\n001\n4\n1010\n0110\n3\n000\n110\n2\n10\n11\n","output":"1\n2\n0\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Competative\\Codechef\\TEAMFOR.cpp","group":"local","local":true}

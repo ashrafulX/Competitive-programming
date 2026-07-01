@@ -1,1 +1,0 @@
-{"name":"Local: increaseSIZEDynamicARRY","url":"d:\\Phitron Cpp\\Week1\\increaseSIZEDynamicARRY.cpp","tests":[{"id":1732974822524,"input":"5\n1 2 3 4 5\n3\n6 7 8","output":"1 2 3 4 5 6 7 8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron Cpp\\Week1\\increaseSIZEDynamicARRY.cpp","group":"local","local":true}

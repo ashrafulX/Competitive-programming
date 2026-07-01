@@ -1,1 +1,0 @@
-{"name":"Local: strigndeletation","url":"d:\\Phitron c\\week 3\\strigndeletation.c","tests":[{"id":1729624852000,"input":"abcdde\n3","output":"abcde"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron c\\week 3\\strigndeletation.c","group":"local","local":true}

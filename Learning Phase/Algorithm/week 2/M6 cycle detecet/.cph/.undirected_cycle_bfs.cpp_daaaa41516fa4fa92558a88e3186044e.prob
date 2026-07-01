@@ -1,1 +1,0 @@
-{"name":"Local: undirected_cycle_bfs","url":"d:\\Phitron Algorithm\\week 2\\M6 cycle detecet\\undirected_cycle_bfs.cpp","tests":[{"id":1740013411574,"input":"3 3\n1 0\n1 2\n0 2\n","output":"Cycle Detected"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron Algorithm\\week 2\\M6 cycle detecet\\undirected_cycle_bfs.cpp","group":"local","local":true}

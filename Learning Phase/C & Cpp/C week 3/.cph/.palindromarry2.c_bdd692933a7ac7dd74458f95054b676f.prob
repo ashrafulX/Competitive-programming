@@ -1,1 +1,0 @@
-{"name":"Local: palindromarry2","url":"d:\\Phitron c\\week 3\\palindromarry2.c","tests":[{"id":1729633539053,"input":"5\n1 3 2 3 1","output":"YES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron c\\week 3\\palindromarry2.c","group":"local","local":true}

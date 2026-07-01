@@ -2,3 +2,8 @@
 *.out
 *.o
 *.obj
+
+.cph/
+.vscoe/
+test.cpp 
+test.java

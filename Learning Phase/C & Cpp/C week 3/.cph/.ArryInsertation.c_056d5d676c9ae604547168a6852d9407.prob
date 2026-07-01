@@ -1,1 +1,0 @@
-{"name":"Local: ArryInsertation","url":"d:\\Phitron c\\week 3\\ArryInsertation.c","tests":[{"id":1729435983914,"input":"5\n5 8 3 7 1\n2 10","output":"5 8 10 3 7 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron c\\week 3\\ArryInsertation.c","group":"local","local":true}

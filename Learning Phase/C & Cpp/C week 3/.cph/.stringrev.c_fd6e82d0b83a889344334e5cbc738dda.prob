@@ -1,1 +1,0 @@
-{"name":"Local: stringrev","url":"d:\\Phitron c\\week 3\\stringrev.c","tests":[{"id":1729629391757,"input":"abcdef","output":"fedcba"},{"id":1729629525866,"input":"dhur bal","output":"lab ruhd"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron c\\week 3\\stringrev.c","group":"local","local":true}

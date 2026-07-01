@@ -1,1 +1,0 @@
-{"name":"Local: Derected_cycle_dfs","url":"d:\\Phitron Algorithm\\week 2\\M6 cycle detecet\\Derected_cycle_dfs.cpp","tests":[{"id":1740065285435,"input":"4 3\n0 1\n1 2\n2 3","output":"YES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron Algorithm\\week 2\\M6 cycle detecet\\Derected_cycle_dfs.cpp","group":"local","local":true}

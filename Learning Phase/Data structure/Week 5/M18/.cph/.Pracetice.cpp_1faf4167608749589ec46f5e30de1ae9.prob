@@ -1,1 +1,0 @@
-{"name":"Local: Pracetice","url":"d:\\Phitron Dsa\\Week 5\\M18\\Pracetice.cpp","tests":[{"id":1737143835203,"input":"10 20 30 40 50 -1 60 -1 -1 -1 -1 -1 -1\n","output":"10 20 30 40 50 60"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron Dsa\\Week 5\\M18\\Pracetice.cpp","group":"local","local":true}

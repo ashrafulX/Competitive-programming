@@ -1,1 +1,0 @@
-{"name":"Local: ArryDELETION","url":"d:\\Phitron c\\week 3\\ArryDELETION.c","tests":[{"id":1729454250619,"input":"5\n1 2 3 4 5\n2","output":"1 2 4 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron c\\week 3\\ArryDELETION.c","group":"local","local":true}

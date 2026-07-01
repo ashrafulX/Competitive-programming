@@ -1,1 +1,0 @@
-{"name":"Local: test","url":"d:\\Phitron Algorithm\\Week 3\\M9 bel\\test.cpp","tests":[{"id":1740660285940,"input":"4 4\n2 3 4\n1 2 3\n0 1 5\n0 3 6","output":"0 5 8 6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron Algorithm\\Week 3\\M9 bel\\test.cpp","group":"local","local":true}

@@ -1,1 +1,0 @@
-{"name":"Local: stringcpy","url":"d:\\Phitron c\\week 3\\stringcpy.c","tests":[{"id":1729718495945,"input":"Hello World","output":"HelloWo"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron c\\week 3\\stringcpy.c","group":"local","local":true}

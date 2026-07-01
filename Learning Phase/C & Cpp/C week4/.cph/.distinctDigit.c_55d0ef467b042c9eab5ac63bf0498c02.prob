@@ -1,1 +1,0 @@
-{"name":"Local: distinctDigit","url":"d:\\Phitron c\\week4\\distinctDigit.c","tests":[{"id":1730322209715,"input":"5\n1 2 1 4 2","output":"3"},{"id":1730322221709,"input":"7\n1 1 2 3 2 3 7","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron c\\week4\\distinctDigit.c","group":"local","local":true}

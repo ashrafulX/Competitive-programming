@@ -1,1 +1,0 @@
-{"name":"Local: maximumintthearry","url":"d:\\Phitron c\\week5\\maximumintthearry.c","tests":[{"id":1730930643459,"input":"5\n10 13 95 1 3","output":"95"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron c\\week5\\maximumintthearry.c","group":"local","local":true}

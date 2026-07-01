@@ -1,1 +1,0 @@
-{"name":"Local: Count_Leaf","url":"d:\\Phitron Dsa\\Week 5\\M18\\Count_Leaf.cpp","tests":[{"id":1737152886985,"input":"10 20 30 -1 40 50 60 -1 -1 70 -1 -1 -1 -1 -1","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron Dsa\\Week 5\\M18\\Count_Leaf.cpp","group":"local","local":true}

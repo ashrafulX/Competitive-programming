@@ -1,1 +1,0 @@
-{"name":"Local: Knapsack_implement","url":"d:\\Phitron Algorithm\\Week 4\\M15 Knapsack\\Knapsack_implement.cpp","tests":[{"id":1741908826594,"input":"4\n1 3 5 3\n2 3 4 5\n8","output":"8"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron Algorithm\\Week 4\\M15 Knapsack\\Knapsack_implement.cpp","group":"local","local":true}

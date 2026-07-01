@@ -1,1 +1,0 @@
-{"name":"Local: exactrow","url":"d:\\Phitron c\\week4\\exactrow.c","tests":[{"id":1730128677046,"input":"4 3\n1 2 3\n3 2 1\n6 5 4\n9 8 7\n2","output":"6 5 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron c\\week4\\exactrow.c","group":"local","local":true}

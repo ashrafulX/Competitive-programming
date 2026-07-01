@@ -1,1 +1,0 @@
-{"name":"Local: test","url":"d:\\Phitron Algorithm\\M1 Graph Representation\\test.cpp","tests":[{"id":1738570677947,"input":"5 5\n0 1\n0 2\n3 0\n1 3\n3 4","output":"1 1 1 1 0 \n1 1 0 1 0 \n1 0 1 0 0 \n1 1 0 1 1 \n0 0 0 1 1 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron Algorithm\\M1 Graph Representation\\test.cpp","group":"local","local":true}

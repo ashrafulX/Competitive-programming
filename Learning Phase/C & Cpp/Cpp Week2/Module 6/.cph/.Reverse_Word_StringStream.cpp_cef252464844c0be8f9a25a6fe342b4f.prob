@@ -1,1 +1,0 @@
-{"name":"Local: Reverse_Word_StringStream","url":"d:\\Phitron Cpp\\Week2\\Module 6\\Reverse_Word_StringStream.cpp","tests":[{"id":1732824239300,"input":"i am ashraf","output":"ashraf am i"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Phitron Cpp\\Week2\\Module 6\\Reverse_Word_StringStream.cpp","group":"local","local":true}
