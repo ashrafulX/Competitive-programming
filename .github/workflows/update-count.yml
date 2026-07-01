@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '**/*.cpp'
+      - 'Competitive Programming/**/*.cpp'
   workflow_dispatch:
 
 permissions:
@@ -21,7 +21,8 @@ jobs:
       - name: Count cpp files
         id: count
         run: |
-          COUNT=$(find . -type f -name "*.cpp" | wc -l)
+          # Count only .cpp files inside the specific folder
+          COUNT=$(find "Competitive Programming" -type f -name "*.cpp" | wc -l)
           echo "count=$COUNT" >> "$GITHUB_OUTPUT"
 
       - name: Update README badge
@@ -33,10 +34,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
+          
           git add README.md
-
+          
+          # This ensures it only commits if the README was actually changed (i.e., count increased/decreased)
           if ! git diff --cached --quiet; then
-            git commit -m "Update problem count"
+            git commit -m "Update problem count to $COUNT"
             git push
+          else
+            echo "No changes in problem count. Skipping commit."
           fi
