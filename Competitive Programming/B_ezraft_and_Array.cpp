@@ -1,7 +1,7 @@
 /**
 *   In the name of Allah, the Most Gracious, the Most Merciful.
 *   Author : Ashraful Islam
-*   Time & Date : 20:09:41 06/07/2026
+*   Time & Date : 20:51:47 12/07/2026
 **/
 #include <bits/stdc++.h>
 using namespace std;
@@ -18,28 +18,28 @@ using namespace std;
 #define no cout << "NO\n"
 void rhafsolve()
 {
-    int n,m;    cin>>n>>m;
-    vector<vector<int>> v(n,vector<int> (m));
-    vector<int> ans;
-    int res=0;
-    for(int i=0;i<n;i++)
+    int n; cin >> n;
+    if(n==1)
     {
-        for(int j=0;j<m;j++)
-        {
-           cin>>v[i][j];
-        }
+        cout<<1<<nl;
+        return;
+    }
+    if (n == 2)
+    {
+        cout << -1 << nl;
+        return;
     }
 
-    for(int i=0;i<n;i++)
+    cout << 1 << " " << 2 << " ";
+
+    int x = 3;
+    for (int i = 3; i <= n; i++)
     {
-        for(int j=0;j<m;j++)
-        {
-          res+=v[j][i];
-        }
-        ans.pb(res);
-        res=0;
+        cout << x << " ";
+        x *= 2;
     }
-    for(auto val: ans) cout<<val<<nl;
+
+    cout << nl;
 }
 //observation
 /**
@@ -49,7 +49,7 @@ signed main() {
     MESSI;
 
     int t = 1;
-    // cin >> t;
+    cin >> t;
     while (t--) 
     {
         rhafsolve();
