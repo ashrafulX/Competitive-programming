@@ -6,7 +6,7 @@
 
 <br>
 
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-841-brightgreen?style=for-the-badge&logo=codeforces&logoColor=white)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-846-brightgreen?style=for-the-badge&logo=codeforces&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Last Commit](https://img.shields.io/github/last-commit/ashrafulx/Competitive-Programming?style=for-the-badge)
 
