@@ -23,8 +23,8 @@
 <div align="center">
 
 | Codeforces | CodeChef | AtCoder | CSES |
-| :---: | :---: | :---: | :---: |
-| **LightOJ** | **UVA** | **SPOJ** | |
+| :---: | :---: | :---: | :---: |  | :---: |
+| **LightOJ** | **UVA** | **SPOJ** | **LeetCode** |
 
 </div>
 
