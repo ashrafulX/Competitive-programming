@@ -1,7 +1,7 @@
 /**
 *   In the name of Allah, the Most Gracious, the Most Merciful.
 *   Author : Ashraful Islam
-*   Time & Date : 04:40:13 18/09/2026
+*   Time & Date : 18:40:57 16/09/2026
 **/
 #include <bits/stdc++.h>
 using namespace std;
@@ -19,14 +19,16 @@ using namespace std;
 void rhafsolve()
 {
     int n;  cin>>n;
-    set<string> st;
+    string s;   cin>>s;
 
-    for(int i=0;i<n;i++)
+    string ans="";
+    for(auto &c : s)
     {
-        string s;   cin>>s;
-        if(st.find(s)==st.end()) no; else yes;
-        st.insert(s);
+        c=tolower(c);
+        if(ans.empty() || ans.back() != c) ans.pb(c);
     }
+    if(ans=="meow") yes; else no;
+    
 }
 //observation
 /**
@@ -36,7 +38,7 @@ signed main() {
     MESSI;
 
     int t = 1;
-    // cin >> t;
+    cin >> t;
     while (t--) 
     {
         rhafsolve();

@@ -1,7 +1,7 @@
 /**
 *   In the name of Allah, the Most Gracious, the Most Merciful.
 *   Author : Ashraful Islam
-*   Time & Date : 04:40:13 18/09/2026
+*   Time & Date : 04:36:39 18/09/2026
 **/
 #include <bits/stdc++.h>
 using namespace std;
@@ -18,15 +18,10 @@ using namespace std;
 #define no cout << "NO\n"
 void rhafsolve()
 {
-    int n;  cin>>n;
-    set<string> st;
-
-    for(int i=0;i<n;i++)
-    {
-        string s;   cin>>s;
-        if(st.find(s)==st.end()) no; else yes;
-        st.insert(s);
-    }
+    string s;   cin>>s;
+    set<char> st;
+    for(auto val : s) st.insert(val);
+    if(st.size()==2) cout<<"Yes"<<nl; else cout<<"No"<<nl;
 }
 //observation
 /**
