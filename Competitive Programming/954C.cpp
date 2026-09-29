@@ -10,7 +10,6 @@ using namespace std;
 using namespace __gnu_pbds;
 template <typename T>
 using pbds = tree<T, null_type, less<T>, rb_tree_tag, tree_order_statistics_node_update>;
-
 #define MESSI ios::sync_with_stdio(false); cin.tie(nullptr);
 #define ll long long
 #define pb push_back
